@@ -1,0 +1,6 @@
+framework module Pods_dukanz {
+  umbrella header "Pods-dukanz-umbrella.h"
+
+  export *
+  module * { export * }
+}

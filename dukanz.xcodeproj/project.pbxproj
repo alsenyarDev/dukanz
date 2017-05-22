@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		74C9A0D51ED3463400155CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C9A0D41ED3463400155CC2 /* AppDelegate.swift */; };
-		74C9A0D71ED3463400155CC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C9A0D61ED3463400155CC2 /* ViewController.swift */; };
+		74C9A0D71ED3463400155CC2 /* SignInVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C9A0D61ED3463400155CC2 /* SignInVc.swift */; };
 		74C9A0DA1ED3463400155CC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C9A0D81ED3463400155CC2 /* Main.storyboard */; };
 		74C9A0DC1ED3463400155CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C9A0DB1ED3463400155CC2 /* Assets.xcassets */; };
 		74C9A0DF1ED3463400155CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C9A0DD1ED3463400155CC2 /* LaunchScreen.storyboard */; };
 		74C9A0EA1ED3463400155CC2 /* dukanzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C9A0E91ED3463400155CC2 /* dukanzTests.swift */; };
 		74C9A0F51ED3463500155CC2 /* dukanzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C9A0F41ED3463500155CC2 /* dukanzUITests.swift */; };
+		74C9A1031ED346A000155CC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74C9A1021ED346A000155CC2 /* GoogleService-Info.plist */; };
+		D858C0794228E3AB427C7270 /* Pods_dukanz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CECC2EEC534BECD25B5C87 /* Pods_dukanz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18CECC2EEC534BECD25B5C87 /* Pods_dukanz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dukanz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		439A57CD240A842F8B7FE86A /* Pods-dukanz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dukanz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dukanz/Pods-dukanz.debug.xcconfig"; sourceTree = "<group>"; };
 		74C9A0D11ED3463400155CC2 /* dukanz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dukanz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C9A0D41ED3463400155CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74C9A0D61ED3463400155CC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74C9A0D61ED3463400155CC2 /* SignInVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVc.swift; sourceTree = "<group>"; };
 		74C9A0D91ED3463400155CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74C9A0DB1ED3463400155CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74C9A0DE1ED3463400155CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		74C9A0F01ED3463500155CC2 /* dukanzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dukanzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C9A0F41ED3463500155CC2 /* dukanzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dukanzUITests.swift; sourceTree = "<group>"; };
 		74C9A0F61ED3463500155CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C9A1021ED346A000155CC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9E493B15CD66639A709D426C /* Pods-dukanz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dukanz.release.xcconfig"; path = "Pods/Target Support Files/Pods-dukanz/Pods-dukanz.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D858C0794228E3AB427C7270 /* Pods_dukanz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5197692271DAC49DA23BCE87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18CECC2EEC534BECD25B5C87 /* Pods_dukanz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		74C9A0C81ED3463400155CC2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +96,8 @@
 				74C9A0E81ED3463400155CC2 /* dukanzTests */,
 				74C9A0F31ED3463500155CC2 /* dukanzUITests */,
 				74C9A0D21ED3463400155CC2 /* Products */,
+				CFE5DCC86AF51B988FEBBF51 /* Pods */,
+				5197692271DAC49DA23BCE87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +114,15 @@
 		74C9A0D31ED3463400155CC2 /* dukanz */ = {
 			isa = PBXGroup;
 			children = (
+				74C9A1061ED349DE00155CC2 /* Controller */,
+				74C9A1051ED349D900155CC2 /* View */,
+				74C9A1041ED349CE00155CC2 /* Model */,
 				74C9A0D41ED3463400155CC2 /* AppDelegate.swift */,
-				74C9A0D61ED3463400155CC2 /* ViewController.swift */,
 				74C9A0D81ED3463400155CC2 /* Main.storyboard */,
 				74C9A0DB1ED3463400155CC2 /* Assets.xcassets */,
 				74C9A0DD1ED3463400155CC2 /* LaunchScreen.storyboard */,
 				74C9A0E01ED3463400155CC2 /* Info.plist */,
+				74C9A1021ED346A000155CC2 /* GoogleService-Info.plist */,
 			);
 			path = dukanz;
 			sourceTree = "<group>";
@@ -125,6 +145,37 @@
 			path = dukanzUITests;
 			sourceTree = "<group>";
 		};
+		74C9A1041ED349CE00155CC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		74C9A1051ED349D900155CC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		74C9A1061ED349DE00155CC2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				74C9A0D61ED3463400155CC2 /* SignInVc.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CFE5DCC86AF51B988FEBBF51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				439A57CD240A842F8B7FE86A /* Pods-dukanz.debug.xcconfig */,
+				9E493B15CD66639A709D426C /* Pods-dukanz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74C9A0F91ED3463500155CC2 /* Build configuration list for PBXNativeTarget "dukanz" */;
 			buildPhases = (
+				602326C5E744C0E16462E3EC /* [CP] Check Pods Manifest.lock */,
 				74C9A0CD1ED3463400155CC2 /* Sources */,
 				74C9A0CE1ED3463400155CC2 /* Frameworks */,
 				74C9A0CF1ED3463400155CC2 /* Resources */,
+				9ABEA706687144E65BD61335 /* [CP] Embed Pods Frameworks */,
+				758A5E2C8A5C2ECE5D56B74B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +247,7 @@
 				TargetAttributes = {
 					74C9A0D01ED3463400155CC2 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 37N772CRRH;
 						ProvisioningStyle = Automatic;
 					};
 					74C9A0E41ED3463400155CC2 = {
@@ -234,6 +289,7 @@
 			files = (
 				74C9A0DF1ED3463400155CC2 /* LaunchScreen.storyboard in Resources */,
 				74C9A0DC1ED3463400155CC2 /* Assets.xcassets in Resources */,
+				74C9A1031ED346A000155CC2 /* GoogleService-Info.plist in Resources */,
 				74C9A0DA1ED3463400155CC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,12 +310,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		602326C5E744C0E16462E3EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		758A5E2C8A5C2ECE5D56B74B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dukanz/Pods-dukanz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ABEA706687144E65BD61335 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dukanz/Pods-dukanz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		74C9A0CD1ED3463400155CC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74C9A0D71ED3463400155CC2 /* ViewController.swift in Sources */,
+				74C9A0D71ED3463400155CC2 /* SignInVc.swift in Sources */,
 				74C9A0D51ED3463400155CC2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,8 +516,10 @@
 		};
 		74C9A0FA1ED3463500155CC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 439A57CD240A842F8B7FE86A /* Pods-dukanz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 37N772CRRH;
 				INFOPLIST_FILE = dukanz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alsenyar.dukanz;
@@ -424,8 +530,10 @@
 		};
 		74C9A0FB1ED3463500155CC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E493B15CD66639A709D426C /* Pods-dukanz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 37N772CRRH;
 				INFOPLIST_FILE = dukanz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alsenyar.dukanz;
@@ -507,6 +615,7 @@
 				74C9A0FB1ED3463500155CC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74C9A0FC1ED3463500155CC2 /* Build configuration list for PBXNativeTarget "dukanzTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +624,7 @@
 				74C9A0FE1ED3463500155CC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74C9A0FF1ED3463500155CC2 /* Build configuration list for PBXNativeTarget "dukanzUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +633,7 @@
 				74C9A1011ED3463500155CC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
